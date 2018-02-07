@@ -1,0 +1,7 @@
+This is a testfile for lab12.
+If you want the JOptionPane to be gone then you can:
+
+optionPane.setVisible(false);
+If you don't then look at a different answer.
+
+

@@ -1,0 +1,74 @@
+* *****************************************
+* CSCI205 - Software Engineering and Design
+* Spring 2016
+* Instructor: Your instructor
+* Section: List time of your lecture
+*
+* Name: Anushikha Sharma
+* Date: 01/29/2016
+*
+* Lab / Assignment: Lab04
+*
+* Description: Answers from lab04
+*
+* *****************************************/
+
+#Lab04 - Exercise 1
+####(Q1.)#### 
+
+Part A - 
+$ git log --decorate --oneline --all
+a11c1ae (HEAD, myFeature, master) test2
+4f4be36 test1
+91ea2f5 more work
+3872d6f Init commit
+
+Part B - 
+tempGitRepo]$ git branch
+* master
+  myFeature
+
+####(Q2.)#### 
+a11c1ae (myFeature) test2
+4f4be36 test1
+91ea2f5 (HEAD, master) more work
+3872d6f Init commit
+
+####(Q3.)####
+* f6fd3b3 (HEAD, bugFix) Fixed bug
+| * a11c1ae (myFeature) test2
+| * 4f4be36 test1
+|/  
+* 91ea2f5 (master) more work
+* 3872d6f Init commit
+
+####(Q4.)####
+f6fd3b3 (HEAD, master, bugFix) Fixed bug
+a11c1ae (myFeature) test2
+4f4be36 test1
+91ea2f5 more work
+3872d6f Init commit
+
+####(Q5.)####
+When I merged the files, the merge command did not throw up any conflicts. I spoke to the TA in class and he said that I could move on. Hence, this is my Main class. 
+
+public class Main {
+ public static void main( String[] args ) {	
+ System.out.println( "Init commit" );
+System.out.println( "Fixed bug" );
+ }
+}
+
+####(Q6.)####
+*   8390a82 (HEAD, master) Merge branch 'myFeature'
+|\  
+| * a11c1ae (myFeature) test2
+| * 4f4be36 test1
+* | f6fd3b3 Fixed bug
+|/  
+* 91ea2f5 more work
+* 3872d6f Init commit
+[as063@brki164-lnx-14 tempGitRepo]$ 
+
+-----------------------------------------------------
+

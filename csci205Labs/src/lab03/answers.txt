@@ -1,0 +1,94 @@
+/* *****************************************
+* CSCI205 - Software Engineering and Design
+* Spring 2016
+* Instructor: Brian King
+* Section: MWF 1:00 PM BRKI 164
+*
+* Name: Anushikha Sharma
+* Date: 01/29/2016
+*
+* Lab / Assignment: Lab03
+*
+* Description: Methods and the String Class
+*
+* *****************************************/
+#### Q1 ####
+$ git log --oneline --decorate
+91ea2f5 (HEAD, master) more work
+3872d6f Init commit
+
+#### Q2 ####
+$ git log --oneline --decorate
+91ea2f5 (HEAD, myFeature, master) more work
+3872d6f Init commit
+
+#### Q3 ####
+$ git log --oneline --decorate
+a11c1ae (HEAD, myFeature) test2
+4f4be36 test1
+91ea2f5 (master) more work
+3872d6f Init commit
+
+#### Q4 ####
+$ git diff master
+diff --git a/Main.java b/Main.java
+index cfdfaf7..db1a0ed 100644
+--- a/Main.java
++++ b/Main.java
+@@ -2,8 +2,7 @@
+ //Anushikha
+ 
+ public class Main {
+- public static void main( String[] args ) {
+- System.out.println( "Hello World" );
++ public static void main( String[] args ) {    
+  System.out.println( "Init commit" );
+  }
+ }
+
+#### Q5 ####
+$ git log --oneline --decorate
+91ea2f5 (HEAD, master) more work
+3872d6f Init commit
+
+#### Q6 ####
+$ git log --oneline --decorate
+a11c1ae (HEAD, myFeature, master) test2
+4f4be36 test1
+91ea2f5 more work
+3872d6f Init commit
+
+#### Q7 ####
+What fibonacci number do you want?
+20
+Recursive fib: 6765
+Non-recursive fib: 6765
+----------------------------
+What fibonacci number do you want?
+30
+Recursive fib: 832040
+Non-recursive fib: 832040
+----------------------------
+What fibonacci number do you want?
+40
+Recursive fib: 102334155
+Non-recursive fib: 102334155
+----------------------------
+Recursion repeatedly goes through each step and repeatedly uses the method calls to test for every possibility, till it reaches its last case. This can be expensive in both processor time and memory space.
+-----------------------------
+Exercise 5 -
+(1.1)	 8
+(1.2)	 13
+(1.3)	 HelloCSCI 205
+(1.4)	 llo
+(1.5)	 true
+(1.6)	 2
+(1.7)	 7
+(1.8)	 HELLO
+(1.9)	 CSCi200
+(1.10)	String s = "MyString"; (This may reuse an instance from the pool of string constants. However, String s = new String("MyString") recreates a new and referntial instance everytime.) Hence, (a) String s = "MyString"; is more efficient.
+-----------------------------
+
+
+
+
